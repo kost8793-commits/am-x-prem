@@ -1,0 +1,6 @@
+{
+  "name": "ThyoCloud AM Activator Bot",
+  "description": "Bot aktivasi Alight Motion Premium cepat dan aman dengan sistem resmi Magic Link sender, Firebase Auth Google, verifikasi oobCode, dan Mode Cepat batch queue.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

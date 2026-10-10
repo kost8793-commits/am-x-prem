@@ -1,0 +1,22 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/api/guerrillamail/*"
+  to = "https://api.guerrillamail.com/:splat"
+  status = 200
+  force = true
+  headers = { Access-Control-Allow-Origin = "*" }
+
+[[redirects]]
+  from = "/api/thyo/*"
+  to = "https://thyo.cloud/api/:splat"
+  status = 200
+  force = true
+  headers = { Access-Control-Allow-Origin = "*" }
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

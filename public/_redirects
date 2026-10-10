@@ -1,0 +1,3 @@
+/api/guerrillamail/*  https://api.guerrillamail.com/:splat  200!
+/api/thyo/*           https://thyo.cloud/api/:splat         200!
+/*                    /index.html                           200
